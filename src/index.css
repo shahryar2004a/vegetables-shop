@@ -26,3 +26,12 @@
     }
     
 }
+
+@layer utilities{
+    .hover-menu{
+        @apply hover:text-gray-900 dark:hover:text-gray-400 transition-all ease-in-out
+    }
+    .mobile-menu-item{
+        @apply block hover:bg-gray-600 p-2 rounded
+    }
+}

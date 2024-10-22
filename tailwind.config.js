@@ -19,9 +19,13 @@ module.exports = {
       "YekanMedium":"Yekan Medium",
       "YekanHeavy":"Yekan Heavy",
        "YekanRegular":"Yekan Regular",
-     }
+     },
+     
+     
     },
+    
   },
+
   plugins: [],
 }
 
