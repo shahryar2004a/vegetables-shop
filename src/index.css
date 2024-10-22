@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base{
+    @font-face {
+        font-family: "Yekan";
+        src: local("Yekan"), url("../public/fonts/Yekan\ Bakh\ EN\ 03\ Light.ttf");
+        font-display: swap;
+    }
+    @font-face {
+        font-family: "Yekan Medium";
+        src: local("Yekan Medium"), url("../public/fonts/Yekan\ Bakh\ EN\ 05\ Medium.ttf");
+        font-display: swap;
+    }
+    @font-face {
+        font-family: "Yekan Heavy";
+        src: local("Yekan Heavy"), url("../public/fonts/Yekan\ Bakh\ 07\ Heavy.ttf");
+        font-display: swap;
+    }
+    @font-face {
+        font-family: "Yekan Regular";
+        src:local("Yekan Regular") , url("../public/fonts/BYekan.ttf");
+        font-display: swap;
+    }
+    
+}
