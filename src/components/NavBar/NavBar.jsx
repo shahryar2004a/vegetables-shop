@@ -99,7 +99,7 @@ export default function NavBar() {
           <li><a href="/services" className="mobile-menu-item ">درباره ما</a></li>
           <li><a href="/contact" className="mobile-menu-item">تماس با ما</a></li>
           <li className="mobile-menu-item"><a href="cart.html" className="flex items-center">[0]<IoMdCart/></a></li>
-          <DarkModeSwitch className='text-slate-400 size-[34px] ms-2 ' checked={darkSide} onChange={toggleDarkMode}/>
+          <li><DarkModeSwitch className='text-slate-400 size-[34px] ms-2 ' checked={darkSide} onChange={toggleDarkMode}/></li>
 
         </ul>
       </div>

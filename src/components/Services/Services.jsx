@@ -7,12 +7,11 @@ import './Services.css'
 export default function Services() {
     
     const [servicesData,setServicesData]=useState(services)
-    console.log(servicesData)
   return (
     <>
-     <section class="service mt-20">
-          <div class="container">
-            <div class="flex justify-around flex-wrap">
+     <section className="service mt-20">
+          <div className="container">
+            <div className="flex justify-around flex-wrap">
 
           {
             servicesData.map((service)=>(

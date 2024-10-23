@@ -12,7 +12,7 @@ export default function Service({data}) {
 
                   </div>
                 </div>
-                <div className="media-body dark:text-white">
+                <div className="media-body dark:text-white text-center">
                   <h3 className="heading font-YekanHeavy">{data.title}</h3>
                   <span className='font-YekanMedium text-[15px]'>{data.des}</span>
               </div>

@@ -38,7 +38,14 @@ const slides = [
       icon:'flaticon-award',
       title:'کیفیت برتر',
       des:'محصولات با کیفیت',
-    }
+    },
+    {
+    id:4,
+    name:'support',
+    icon:'flaticon-customer-service',
+    title:'پشتیبانی',
+    des:'پشتیبانی 24 ساعته',
+  }
  ]
 
   export  {slides,services}

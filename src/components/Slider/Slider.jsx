@@ -36,7 +36,7 @@ export default function Slider() {
 
         {
             slides.map((slide)=>(
-                <SwiperSlide>
+                <SwiperSlide key={slide.id}>
                 <div style={{backgroundImage: `url(${slide.image})`}} 
                 className="relative flex flex-col items-center justify-center h-screen w-full bg-cover bg-center bg-no-repeat text-white">
                    <div className="absolute inset-0 bg-black/10"></div>
