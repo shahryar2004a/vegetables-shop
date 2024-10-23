@@ -1,0 +1,69 @@
+/* category */
+.category{
+    margin-top: 50px;
+   }
+   .fruit-land{
+    background-image: url('../Images/pics/category-1.jpg');
+   
+     animation: bounceIn 2s  ease-in;
+   
+   }
+   .vegetables{
+     background-image: url('../Images/pics/category.jpg');
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-origin: border-box;
+    height: 520px;
+    animation: bounceIn 2.5s  ease-in;
+    border-radius: 10px;
+   }
+   .vegetables>div>h2{
+     color: #82ae46;
+   }
+ 
+   .natural-juices{
+     background-image: url('../Images/pics/category-3.jpg');
+     animation: bounceIn 2.2s  ease-in;
+   
+   }
+   .strawberry{
+     background-image: url('../Images/pics/category-2.jpg');
+     animation: bounceIn 2.4s  ease-in;
+   
+   }
+   .dry-fruit{
+     background-image: url("../Images/pics/category-4.jpg");
+    animation: bounceIn 2.7s  ease-in;
+   
+   }
+   .category-item{
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+     border-radius: 10px;
+     width: 100%;
+     height: 250px;
+     display: flex;
+     flex-direction: row;
+     align-items: flex-end;
+    
+   }
+   .category-item-text{
+     background-color: #82ae46;
+     width: max-content;
+   height: max-content;
+  padding: 8px;
+
+   border-radius: 10px;
+  
+   }
+ 
+   .category-item-text>h2>a{
+     text-decoration: none;
+     color: white;
+     font-size: 20px;
+
+   }
+   
+   
