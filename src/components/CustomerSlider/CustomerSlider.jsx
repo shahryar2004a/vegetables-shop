@@ -53,7 +53,7 @@ export default function CustomerSlider() {
         {
             customers.map(customer =>(
                 <SwiperSlide key={customer.id}>
-                <div class="item">
+                <div class="item dark:text-white">
                       <div class="testimony-wrap p-4 pb-5">
                           <div class="user-img mb-5" style={{backgroundImage:`url(${customer.img})`}}>
                   <span class="quote d-flex align-items-center justify-content-center">
@@ -61,7 +61,7 @@ export default function CustomerSlider() {
                   </span>
                           </div>
                           <div class="mt-6 text-center">
-                              <p class="mb-5 pl-4 line font-YekanMedium text-sm">{customer.message}</p>
+                              <p class="mb-5 pl-4 line font-YekanMedium  text-sm">{customer.message}</p>
                               <p class="text-2xl font-YekanHeavy">{customer.name}</p>
                               <span class="position font-YekanMedium text-sm ">{customer.position}</span>
                           </div>

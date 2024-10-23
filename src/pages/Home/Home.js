@@ -8,6 +8,7 @@ import Products from '../../components/Products/Products'
 import DaySell from '../../components/DaySell/DaySell'
 import CustomerSlider from '../../components/CustomerSlider/CustomerSlider'
 import Partner from '../../components/Partner/Partner'
+import Subscribe from '../../components/Subscribe/Subscribe'
 
 export default function Home() {
   return (
@@ -25,9 +26,10 @@ export default function Home() {
         <CustomerSlider/>
         
       </div>
-      <div className='container border-t-2'>
+      <div className='container border-t-2 dark:border-gray-500'>
       <Partner/>
       </div>
+      <Subscribe/>
     </>
   )
 }
