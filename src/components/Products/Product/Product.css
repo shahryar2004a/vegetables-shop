@@ -1,0 +1,132 @@
+
+
+.product{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ 
+    border-radius: 10px;
+    overflow: hidden;
+   }
+   
+   .product-pic{
+     background-size: cover;
+     background-position: center;
+     background-repeat: no-repeat;
+      
+   
+     margin-bottom: 30px;
+     transition: all 0.4s;
+     position: relative;
+   }
+   .product-off{
+     position: absolute;
+   color: white;
+     top: 0;
+     left: 0;
+     background-color: #82ae46;
+     z-index: 3;
+   }
+   .product-pic:hover{
+     transform: scale(1.1,1.1);
+     
+     
+   }
+   
+   .product-detail{
+     text-align: center;
+     margin-bottom: 7px;
+   }
+   .product-detail>h5{
+    
+   }
+   .product-detail>p{
+     color: #82ae46;
+   }
+   
+   .product-btn{
+
+     width: 50%;                                            
+    height: 18%;
+     flex-direction: row;
+     justify-content: space-around;
+     align-items: center;
+     animation-name: showBtn;
+     animation-duration: 0.5s;
+     margin-bottom: 40px;
+     transition: all;
+   }
+   .product-btn>div{
+      background-color: #82ae46;
+     color: white;
+    display: flex;
+    align-items: center;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+   }
+   .product-btn>div>a{
+     color: white;
+     font-size: 20px;
+   margin: auto;
+   }
+   
+   
+   /* animation product */
+   
+   
+   .product-1{
+     animation: bounceIn 2s ease-in;
+   }
+   .product-2{
+     animation: bounceIn 2.3s ease-in;
+   }
+   .product-3{
+     animation: bounceIn 2.6s ease-in;
+   }
+   .product-4{
+     animation: bounceIn 2.8s ease-in;
+   }
+   .product-5{
+     animation: bounceIn 3s ease-in;
+   }
+   .product-6{
+     animation: bounceIn 3.3s ease-in;
+   }
+   .product-7{
+     animation: bounceIn 3.6s ease-in;
+   }
+   .product-8{
+     animation: bounceIn 3.9s ease-in;
+   }
+   @keyframes showBtn {
+     0% {
+       
+       opacity: 0;
+     }
+     20% {
+   
+       opacity: 20%; 
+     }
+     40% {
+    
+       opacity: 40%;
+     }
+     40% {
+       opacity: 60%;
+   
+     }
+     60% {
+       opacity: 80%;
+   
+      
+     } 
+     80% {
+       opacity: 90%;
+     }
+     100% {
+       opacity: 100%;
+   
+     }
+   }

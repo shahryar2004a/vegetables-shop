@@ -48,4 +48,62 @@ const slides = [
   }
  ]
 
-  export  {slides,services}
+ const products=[
+      {
+        id:1,
+        off:'30',
+        img:Images.p1,
+        title:'فلفل دولمه ای',
+        price:'120.00',
+      },
+      {
+        id:2,
+        off:'30',
+        img:Images.p2,
+        title:'فلفل دولمه ای',
+        price:'120.00',
+      },
+      {
+        id:3,
+        off:'30',
+        img:Images.p3,
+        title:'فلفل دولمه ای',
+        price:'120.00',
+      },
+      {
+        id:4,
+        off:'30',
+        img:Images.p4,
+        title:'فلفل دولمه ای',
+        price:'120.00',
+      },
+      {
+        id:5,
+        off:'30',
+        img:Images.p5,
+        title:'فلفل دولمه ای',
+        price:'120.00',
+      },
+      {
+        id:6,
+        off:'30',
+        img:Images.p6,
+        title:'فلفل دولمه ای',
+        price:'120.00',
+      },
+      {
+        id:7,
+        off:'30',
+        img:Images.p7,
+        title:'فلفل دولمه ای',
+        price:'120.00',
+      },
+      {
+        id:8,
+        off:'30',
+        img:Images.p8,
+        title:'فلفل دولمه ای',
+        price:'120.00',
+      },
+ ]
+  export  {slides,services,products}
