@@ -1,0 +1,26 @@
+/* day sell*/
+
+.day-sell{
+    background-image: url('../Images/pics/bg_3.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 100px;
+  }
+  
+  .day-sell-content{
+  
+    padding-bottom: 100px;
+ 
+    animation: bounceIn 2s ease;
+  }
+  
+  .green{
+    color: #82ae46;
+  }
+  
+  .subheading{
+    color: #82ae46;
+    font-style: italic;
+    font-size: 18px;
+  }

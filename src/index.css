@@ -36,4 +36,10 @@
     .mobile-menu-item{
         @apply block hover:bg-gray-600 p-2 rounded
     }
+    .time{
+        @apply pr-4 flex flex-col items-center gap-y-3
+    }
+    .time-text{
+        @apply text-sm text-black md:text-gray-400 font-YekanMedium
+    }
 }
