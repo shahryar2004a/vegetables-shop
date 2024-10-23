@@ -106,4 +106,49 @@ const slides = [
         price:'120.00',
       },
  ]
-  export  {slides,services,products}
+
+ const customers=[
+   {
+    id:1,
+    name:'علی رضایی',
+    img:Images.user1,
+    position:'آنالیز سیستم',
+    message:'تغییر مسیر زندگی',
+   },
+   {
+    id:2,
+    name:'محمد معدلی',
+    img:Images.user2,
+    position:'بسته بندی مناسب',
+    message:'بسیار تمیز و منصفانه',
+   },
+   {
+    id:3,
+    name:'رضا دل آرام',
+    img:Images.user3,
+    position:'طراحی کلی',
+    message:'کیفیت منحصر به فرد',
+   },
+   {
+    id:4,
+    name:'آرین میرزایی',
+    img:Images.user1,
+    position:'طراحی',
+    message:'سلامتی حق شماست',
+   },
+   {
+    id:5,
+    name:'محمد نجات پور',
+    img:Images.user2,
+    position:'توسعه دهنده وب',
+    message:'کیفیت اتفاقی نیست',
+   },
+   {
+    id:6,
+    name:'علی رضایی',
+    img:Images.user3,
+    position:'آنالیز سیستم',
+    message:'تغییر مسیر زندگی',
+   },
+ ]
+  export  {slides,services,products,customers}

@@ -29,6 +29,12 @@
     }
 }
 
+@layer components{
+    .green{
+        color: #82ae46;
+      }
+}
+
 @layer utilities{
     .hover-menu{
         @apply hover:text-gray-900 dark:hover:text-gray-400 transition-all ease-in-out

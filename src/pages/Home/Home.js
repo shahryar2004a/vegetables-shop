@@ -6,6 +6,7 @@ import Services from '../../components/Services/Services'
 import Category from '../../components/Category/Category'
 import Products from '../../components/Products/Products'
 import DaySell from '../../components/DaySell/DaySell'
+import CustomerSlider from '../../components/CustomerSlider/CustomerSlider'
 
 export default function Home() {
   return (
@@ -19,7 +20,9 @@ export default function Home() {
       <Products/>
       </div>
       <DaySell/>
-
+      <div className='container'>
+        <CustomerSlider/>
+      </div>
     </>
   )
 }
