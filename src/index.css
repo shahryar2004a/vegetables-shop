@@ -24,7 +24,9 @@
         src:local("Yekan Regular") , url("../public/fonts/BYekan.ttf");
         font-display: swap;
     }
-    
+    body{
+        @apply bg-zinc-200 dark:bg-zinc-700
+    }
 }
 
 @layer utilities{
