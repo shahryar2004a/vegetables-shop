@@ -23,7 +23,7 @@ export default function Slider() {
       }}
       loop={true}
       modules={[Autoplay, EffectFade, Pagination, Navigation]} // ماژول‌های مورد نیاز
-      className="mySwiper h-[500vh]"
+      className="mySwiper h-[89vh]"
       onSlideChangeTransitionStart={() => {
         // فعال کردن انیمیشن محو شدن فقط در تغییر خودکار
         document.querySelector('.swiper-wrapper').style.transition = 'opacity 0.5s ease';

@@ -1,0 +1,99 @@
+
+
+
+
+
+
+.service-item{
+  
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+     }
+    
+    .out-circle{
+    
+    color: white;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.3s;
+    }
+    .free-send{
+      animation: bounceIn 1s  ease-in;
+    
+    }
+    .free-send>.out-circle{
+      background-color: #e4b2d6;
+    }
+    .free-send>.out-circle:hover{
+      background-color: #82ae46;
+    }
+    .product-fresh{
+      animation: bounceIn 1.3s  ease-in;
+    
+    }
+    .product-fresh>.out-circle{
+      background-color: #dcc698;
+    }
+    .product-fresh>.out-circle:hover{
+     background-color: #82ae46;
+    }
+    .best-quality{
+      animation: bounceIn 1.6s  ease-in;
+    }
+    .best-quality>.out-circle{
+      background-color: #a2d1e1;
+    }
+    .best-quality>.out-circle:hover{
+      background-color: #82ae46;
+    }
+    .support{
+      animation: bounceIn 1.9s  ease-in;
+      
+    }
+    .support>.out-circle{
+      background-color: #dcd691;
+      
+    }
+    .support>.out-circle:hover{
+      background-color: #82ae46;
+    }
+    .in-circle{
+    border: 2px white solid;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    }
+    
+    .service-icon{
+      width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    
+    .media-body{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-top: 10px;
+    }
+    
+    .heading{
+      font-size: 28px;
+    }
