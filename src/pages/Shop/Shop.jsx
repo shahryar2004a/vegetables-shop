@@ -29,7 +29,7 @@ export default function Shop() {
       <NavBar/>
       <Header title="محصولات"/>
      
-   <div className="tabs p-10 grid grid-cols-1 md:flex md:justify-center space-x-4 my-20">
+   <div className="tabs p-4 grid grid-cols-1 md:flex md:justify-center space-x-4 my-20">
         {categories.map((category,index) => (
           <button
             key={index}
@@ -37,7 +37,7 @@ export default function Shop() {
                 setActiveCategory(category);
               setCurrentPage(1);
             }}
-            className={`tab px-4 py-2 mx-4 rounded ${activeCategory === category ? 'bg-[#82ae46] text-white' : 'dark:bg-gray-200 text-gray-500'}`}
+            className={`tab w-full md:w-max md:px-4 py-2 md:mx-4 rounded ${activeCategory === category ? 'bg-[#82ae46] text-white' : 'dark:bg-gray-200 text-gray-500'}`}
           >
             {category}
           </button>
@@ -47,7 +47,7 @@ export default function Shop() {
      
       <div className="container grid sm:grid-cols-2  lg:grid-cols-3 xl:grid-cols-4 gap-4 my-20">
         {selectedProducts.map((product) => (
-
+        
             <Product key={product.id} product={product}/>
          
         ))}

@@ -11,6 +11,18 @@ import { useParams } from 'react-router-dom';
 import './ProductPage.css'
 export default function ProductPage() {
 
+
+  const handleAddToCart = () => {
+    const cart = JSON.parse(localStorage.getItem('cart')) || [];
+    const productToAdd = { ...product, quantity: count }; // افزودن مقدار پیش‌فرض 1
+    cart.push(productToAdd);
+    localStorage.setItem('cart', JSON.stringify(cart));
+    alert('محصول به سبد خرید اضافه شد!');
+  };
+
+
+
+
   const [count, setCount] = useState(1) 
   const { id } = useParams(); 
   const product = products.find((p) => p.id === parseInt(id));
@@ -85,7 +97,7 @@ export default function ProductPage() {
           </div>
           </div> 
           <h5 className="font-YekanMedium text-sm dark:text-white">موجودی {product.stock} کیلوگرم</h5>
-          <button type="button" className=" bg-black sm:w-[40%] rounded-2xl text-white font-YekanMedium text-xl
+          <button onClick={handleAddToCart} type="button" className=" bg-black sm:w-[40%] rounded-2xl text-white font-YekanMedium text-xl
            hover:bg-[#82ae46] transition-all my-4 p-3 px-5 fs-6" >اضافه به سبد خرید</button>
         </div>
         </div>

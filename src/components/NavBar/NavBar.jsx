@@ -14,10 +14,9 @@ export default function NavBar() {
       setIsOpen(!isOpen);
     };
 
-      // برای تشخیص اسکرول
   useEffect(() => {
     const handleScroll = () => {
-      if (window.scrollY > 500) { // مقدار دلخواه برای شروع fixed شدن
+      if (window.scrollY > 500) { 
         setIsScrolled(true);
       } else {
         setIsScrolled(false);
@@ -66,15 +65,14 @@ export default function NavBar() {
                 <Link to="#" className="block px-4 py-2 hover-menu">اشتراک</Link>
                 </li>
                 <li>
-                <Link to="#" className="block px-4 py-2 hover-menu">سبد خرید</Link>
+                <Link to="/cart" className="block px-4 py-2 hover-menu">سبد خرید</Link>
               </li>
              
             </ul>
           </li>
-          <li><Link to="/blogs" className="hover-menu">بلاگ</Link></li>
           <li><Link to="/aboutUs" className="hover-menu">درباره ما</Link></li>
           <li><Link to="/contactUs" className="hover-menu">تماس با ما</Link></li>
-          <li className="hover-menu  mx-4"><a href="cart.html" className="flex items-center">[0]<IoMdCart/></a></li>
+          <li className="hover-menu  mx-4"><Link to='/cart' className="flex items-center">[0]<IoMdCart/></Link></li>
 
         </ul>
 
@@ -96,10 +94,11 @@ export default function NavBar() {
         }`}>
         <ul className="flex flex-col  space-y-2 p-4 ps-10">
           <li><a href="/" className="mobile-menu-item ">خانه</a></li>
-          <li><a href="/about" className="mobile-menu-item ">بلاگ</a></li>
-          <li><a href="/services" className="mobile-menu-item ">درباره ما</a></li>
-          <li><a href="/contact" className="mobile-menu-item">تماس با ما</a></li>
-          <li className="mobile-menu-item"><a href="cart.html" className="flex items-center">[0]<IoMdCart/></a></li>
+          <li><a href="/shop" className="mobile-menu-item ">خرید</a></li>
+          <li><a href="/cart" className="mobile-menu-item ">سبد خرید</a></li>
+          <li><a href="/aboutUs" className="mobile-menu-item ">درباره ما</a></li>
+          <li><a href="/contactUs" className="mobile-menu-item">تماس با ما</a></li>
+          <li className="mobile-menu-item"><Link to="/cart" className="flex items-center">[0]<IoMdCart/></Link></li>
           <li><DarkModeSwitch className='text-slate-400 size-[34px] ms-2 ' checked={darkSide} onChange={toggleDarkMode}/></li>
 
         </ul>

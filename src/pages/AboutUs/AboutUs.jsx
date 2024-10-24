@@ -54,7 +54,7 @@ export default function AboutUs() {
                         </div>
                       )}
                         <div className="mt-10 md:mt-0">
-                      <div class="about-detail">
+                      <div className="about-detail">
                         <div className=" mb-4 md:mt-5 heading dark:text-white">
                           <h1 className='font-YekanHeavy text-2xl md:text-4xl'>به وب سایت فروت لند خوش آمدین</h1>
                         </div>

@@ -9,8 +9,9 @@ import './Product.css'
 export default function Product({product}) {
   return (
     <>
+        <div className=""> 
 
-<div className=" relative group bg-white product md:h-[300px] xl:h-[400px]">
+<div className=" relative group bg-white product w-[70%] sm:w-full md:h-[300px] xl:h-[400px] mx-auto">
          
   <div className="conainer-pic">
     <span className="product-off px-3">{product.off}%</span> 
@@ -39,6 +40,7 @@ export default function Product({product}) {
 </div>
 </div>
 
+</div>
 </div>
     </>
   )

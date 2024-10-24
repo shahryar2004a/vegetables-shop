@@ -11,31 +11,31 @@ export default function ContactUs() {
     <>
        <Topper />
        <NavBar /> 
-       <Header title='ارتباط با ما'/>
+       <Header title='تماس با ما'/>
 
 
 
        <section className="section-contact bg-gray-200 dark:bg-zinc-600">
 <div className="container">
     <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-y-4 gap-x-4 website-info">
-      <div className="item bg-white rounded-lg dark:bg-zinc-500">
+      <div className="item bg-white dark:text-white rounded-lg dark:bg-zinc-500">
         <div className="info">
 
     
         <p><span className='font-YekanMedium text-sm'>آدرس:</span> ایران - شیراز - بلوار جمهوری</p>
       </div>
     </div>
-      <div className="item bg-white rounded-lg dark:bg-zinc-500">
+      <div className="item bg-white dark:text-white rounded-lg dark:bg-zinc-500">
         <div className="info">
         <p><span className='font-YekanMedium text-sm'>تلفن:</span> <a href="tel://1234567920">02112345678</a></p>
       </div>
     </div>
-      <div className="item bg-white rounded-lg dark:bg-zinc-500">
+      <div className="item bg-white dark:text-white rounded-lg dark:bg-zinc-500">
         <div className="info">
         <p><span className='font-YekanMedium text-sm'>ایمیل:</span> <a href="mailto:info@yoursite.com">email@website.com</a></p>
       </div>
     </div>
-      <div className="item bg-white rounded-lg  dark:bg-zinc-500">
+      <div className="item bg-white dark:text-white rounded-lg  dark:bg-zinc-500">
         <div className="info">
 
      
