@@ -45,7 +45,7 @@ export default function NavBar() {
 
       
         <div className="text-3xl font-YekanHeavy cursor-pointer me-6 text-[#82ae46]">
-          فروت لند
+        زیست‌کالا
         </div>
         <ul className="hidden md:flex space-x-10">
           <li><a href="/" className="hover-menu me-10">خانه</a></li>
@@ -64,10 +64,11 @@ export default function NavBar() {
               </li>
               <li>
                 <a href="#" className="block px-4 py-2 hover-menu">اشتراک</a>
+                </li>
                 <li>
                 <a href="#" className="block px-4 py-2 hover-menu">سبد خرید</a>
               </li>
-              </li>
+             
             </ul>
           </li>
           <li><a href="/services" className="hover-menu">بلاگ</a></li>

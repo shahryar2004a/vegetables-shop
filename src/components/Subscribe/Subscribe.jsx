@@ -13,21 +13,20 @@ export default function Subscribe() {
       </div>
      
       
-          <form dir="ltr" className='mt-10 mx-auto'>
-              <div  className="flex ">
-                <input type="submit"  className="subscribe-btn font-YekanHeavy text-xl w-[30%]  p-3" id="basic-addon3" value="اشتراک"/>
-                <input dir="rtl" type="text"  className="subscribe-input font-YekanMedium w-[70%] p-3" id="basic-url"  placeholder="آدرس ایمیل خود را وارد کنید"/>
-              </div>
+          <form dir='rtl' className='mt-10 flex flex-col md:flex-row mx-auto w-[500px] md:w-[400px]'>
+            
+                <input dir="rtl" type="text"  className="subscribe-input font-YekanMedium w-[100%] md:w-[80%] p-3" id="basic-url"  placeholder="آدرس ایمیل خود را وارد کنید"/>
+                <input type="submit"  className="subscribe-btn font-YekanHeavy text-xl w-[100%] md:w-[20%]  p-3" id="basic-addon3" value="اشتراک"/>
           </form>
         
      
     </div>
   </div>
-  <div  className="toUp"><a href="#nav" className="text-center">
+  <div  className="toUp absolute top-[93%] left-[45%] lg:top-[90%] lg:left-[50%]"><a href="#nav" className="text-center">
     <div  className="toUp-icon">
          
-          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-chevron-up" viewBox="0 0 16 16">
-            <path fill-rule="evenodd" d="M7.646 4.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 5.707l-5.646 5.647a.5.5 0 0 1-.708-.708z"/>
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" className="bi bi-chevron-up" viewBox="0 0 16 16">
+            <path fillRule="evenodd" d="M7.646 4.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 5.707l-5.646 5.647a.5.5 0 0 1-.708-.708z"/>
           </svg>
         </div>
     </a> 

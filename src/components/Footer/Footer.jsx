@@ -12,23 +12,23 @@ export default function Footer() {
     
   return (
     <>
-      <footer class="footer px-4 sm:px-0  py-20 mt-5">
-  <div class="container ">
-    <div class="grid lg:grid-cols-3 gap-y-8 gap-x-3">
-      <div class="">
-        <div class=" grid grid-cols-2 gap-x-4">
-          <div class="dark:text-white">
-            <h5 class="font-YekanHeavy text-xl">غذاهای گیاهی</h5>
+      <footer className="footer px-4 sm:px-0  py-20 mt-5">
+  <div className="container ">
+    <div className="grid lg:grid-cols-3 gap-y-8 gap-x-3">
+      <div className="">
+        <div className=" grid grid-cols-2 gap-x-4">
+          <div className="dark:text-white">
+            <h5 className="font-YekanHeavy text-xl">غذاهای گیاهی</h5>
             <p>یکی از بهترین راهها انتخاب درست مسیر زندگی هست با ما بسلامتی خود اهمیت بدین</p>
-            <ul class="ftco-footer-social list-unstyled flex mt-5 ">
-                <li class="ftco-animate dark:bg-gray-400 rounded-full "><a href="#" className='text-2xl'><FaTwitter/></a></li>
-                <li class="ftco-animate dark:bg-gray-400 rounded-full "><a href="#" className='text-2xl'><FaFacebookF/></a></li>
-                <li class="ftco-animate dark:bg-gray-400 rounded-full "><a href="#" className='text-2xl'><FaInstagram/></a></li>
+            <ul className="ftco-footer-social list-unstyled flex mt-5 ">
+                <li className="ftco-animate dark:bg-gray-400 rounded-full "><a href="#" className='text-2xl'><FaTwitter/></a></li>
+                <li className="ftco-animate dark:bg-gray-400 rounded-full "><a href="#" className='text-2xl'><FaFacebookF/></a></li>
+                <li className="ftco-animate dark:bg-gray-400 rounded-full "><a href="#" className='text-2xl'><FaInstagram/></a></li>
             </ul>
           </div>
-          <div class=" footer-menu dark:text-white ">
-            <h5 class="font-YekanHeavy text-xl">منو</h5>
-            <ul class="list-style ">
+          <div className=" footer-menu dark:text-white ">
+            <h5 className="font-YekanHeavy text-xl">منو</h5>
+            <ul className="list-style ">
                 <li><a href="#" className="py-2 hover-menu">خرید</a></li>
                 <li><a href="#" className="py-2 hover-menu">درباره ی ما </a></li>
                 <li><a href="#" className="py-2 hover-menu">کاتالوگ</a></li>

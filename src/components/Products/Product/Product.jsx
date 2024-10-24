@@ -8,33 +8,33 @@ import './Product.css'
 export default function Product({product}) {
   return (
     <>
-        <div class=""> 
+        <div className=""> 
 
-<div class=" relative group bg-white product md:h-[400px]">
+<div className=" relative group bg-white product md:h-[300px] xl:h-[400px]">
          
-  <div class="conainer-pic">
-    <span class="product-off px-3">{product.off}%</span> 
-  <a href="#" class="">
+  <div className="conainer-pic">
+    <span className="product-off px-3">{product.off}%</span> 
+  <a href="#" className="">
     
- <img class="product-pic w-[70%] mx-auto md:w-full" src={product.img} alt=""/>
+ <img className="product-pic w-[70%] mx-auto md:w-full" src={product.img} alt=""/>
   </a>
 </div>
 
-  <div class="product-detail group-hover:hidden">
+  <div className="product-detail xl:group-hover:hidden">
     <h5 className='font-YekanHeavy text-2xl'>{product.title}</h5>
       <p className='font-YekanMedium text-xl mt-2'>{product.price} تومان</p>   
   </div>
 
 
-  <div class="product-btn mt-5 md:mt-0 flex  md:hidden lg:group-hover:flex">
-    <div class="menu">
+  <div className="product-btn mt-5 md:mt-0 flex  md:hidden xl:group-hover:flex">
+    <div className="menu">
       <a href="#"><IoMenuOutline/></a>
     </div>
-  <div class="cart">
+  <div className="cart">
     <a href="#"><FaCartArrowDown/></a>
   </div>
 
-<div class="heart">
+<div className="heart">
   <a href="#"><FaHeart/></a>
 </div>
 </div>

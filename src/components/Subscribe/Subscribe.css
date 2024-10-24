@@ -21,9 +21,7 @@
   
   .toUp{
     background-color: #82ae46;
-  position: absolute;
-  left: 50%;
-  top: 88%;
+
     width: 60px;
     height: 60px;
     border-radius: 50%;
