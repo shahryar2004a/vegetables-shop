@@ -40,7 +40,7 @@ export default function NavBar() {
     };
   return (
     <>
-    <nav  className={`bg-white dark:bg-zinc-700 dark:text-white w-full shadow-xl	 ${isScrolled ? 'fixed z-50' : 'relative'} px-4 py-4 md:py-6 font-YekanMedium`}>
+    <nav  className={`bg-white dark:bg-zinc-700 dark:text-white w-full shadow-xl	 ${isScrolled ? 'fixed top-0 z-50' : 'relative'} px-4 py-4 md:py-6 font-YekanMedium`}>
       <div className="container mx-auto flex justify-between  items-center">
        <div className='flex '>
 
