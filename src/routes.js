@@ -6,12 +6,14 @@ import Blogs from "./pages/Blogs/Blogs"
 import Blog from "./pages/Blog/Blog"
 import WishList from "./pages/WishList/WishList"
 import ProductPage from "./pages/ProductPage/ProductPage"
+import Shop from "./pages/Shop/Shop"
 
 let routes=[
     {path:'/',element:<Home/>},
     {path:'/aboutUs',element:<AboutUs/>},
     {path:'/contactUs',element:<ContactUs/>},
     {path:'/cart',element:<Cart/>},
+    {path:'/shop',element:<Shop/>},
     {path:'/blogs',element:<Blogs/>},
     {path:'/blog',element:<Blog/>},
     {path:'/wishlist',element:<WishList/>},

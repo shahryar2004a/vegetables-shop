@@ -55,13 +55,10 @@ export default function NavBar() {
             {/* Dropdown Content */}
             <ul className="absolute hidden z-10 w-40 group-hover:block transition-all ease-in-out  bg-white dark:bg-zinc-700  text-black dark:text-white text-sm py-2 space-y-2 rounded shadow-lg">
             <li>
-                <Link to="#" className="block px-4 py-2 hover-menu ">خرید</Link>
+                <Link to="/shop" className="block px-4 py-2 hover-menu ">خرید</Link>
               </li>
               <li>
                 <Link to="/wishlist" className="block px-4 py-2 hover-menu ">محصولات مورد علاقه</Link>
-              </li>
-              <li>
-                <Link to="/product" className="block px-4 py-2 hover-menu">محصولات تکی</Link>
               </li>
               <li>
                 <Link to="#" className="block px-4 py-2 hover-menu">اشتراک</Link>

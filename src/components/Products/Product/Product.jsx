@@ -21,7 +21,7 @@ export default function Product({product}) {
 </div>
 
   <div className="product-detail xl:group-hover:hidden">
-    <h5 className='font-YekanHeavy text-2xl'>{product.title}</h5>
+    <h5 className='font-YekanHeavy text-2xl'>{product.name}</h5>
       <p className='font-YekanMedium text-xl mt-2'>{product.price} تومان</p>   
   </div>
 
