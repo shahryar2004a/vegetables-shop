@@ -3,6 +3,7 @@ import { IoMdCart } from "react-icons/io";
 import { IoMdMenu } from "react-icons/io";
 import { DarkModeSwitch } from 'react-toggle-dark-mode'
 import useDarkSide from '../Hook/useDarkSide';
+import { Link } from 'react-router-dom';
 
 import './NavBar.css'
 export default function NavBar() {
@@ -48,32 +49,32 @@ export default function NavBar() {
         زیست‌کالا
         </div>
         <ul className="hidden md:flex space-x-10">
-          <li><a href="/" className="hover-menu me-10">خانه</a></li>
+          <li><Link to="/" className="hover-menu me-10">خانه</Link></li>
           <li className="relative group">
             <button className=" hover-menu">خرید</button>
             {/* Dropdown Content */}
             <ul className="absolute hidden z-10 w-40 group-hover:block transition-all ease-in-out  bg-white dark:bg-zinc-700  text-black dark:text-white text-sm py-2 space-y-2 rounded shadow-lg">
             <li>
-                <a href="#" className="block px-4 py-2 hover-menu ">خرید</a>
+                <Link to="#" className="block px-4 py-2 hover-menu ">خرید</Link>
               </li>
               <li>
-                <a href="#" className="block px-4 py-2 hover-menu ">محصولات مورد علاقه</a>
+                <Link to="/wishlist" className="block px-4 py-2 hover-menu ">محصولات مورد علاقه</Link>
               </li>
               <li>
-                <a href="#" className="block px-4 py-2 hover-menu">محصولات تکی</a>
+                <Link to="/product" className="block px-4 py-2 hover-menu">محصولات تکی</Link>
               </li>
               <li>
-                <a href="#" className="block px-4 py-2 hover-menu">اشتراک</a>
+                <Link to="#" className="block px-4 py-2 hover-menu">اشتراک</Link>
                 </li>
                 <li>
-                <a href="#" className="block px-4 py-2 hover-menu">سبد خرید</a>
+                <Link to="#" className="block px-4 py-2 hover-menu">سبد خرید</Link>
               </li>
              
             </ul>
           </li>
-          <li><a href="/services" className="hover-menu">بلاگ</a></li>
-          <li><a href="/contact" className="hover-menu">درباره ما</a></li>
-          <li><a href="/contact" className="hover-menu">تماس با ما</a></li>
+          <li><Link to="/blogs" className="hover-menu">بلاگ</Link></li>
+          <li><Link to="/aboutUs" className="hover-menu">درباره ما</Link></li>
+          <li><Link to="/contactUs" className="hover-menu">تماس با ما</Link></li>
           <li className="hover-menu  mx-4"><a href="cart.html" className="flex items-center">[0]<IoMdCart/></a></li>
 
         </ul>
