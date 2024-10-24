@@ -48,4 +48,10 @@
     .time-text{
         @apply text-sm text-black md:text-gray-400 font-YekanMedium
     }
+    .form-input{
+        @apply outline-none focus:outline-none border-2 p-2 font-YekanMedium
+    }
+    .form-btn{
+        @apply border-2 border-[#82ae46] bg-[#82ae46] text-white w-52 rounded-xl hover:bg-transparent hover:text-[#82ae46] transition-all cursor-pointer p-2 font-YekanMedium
+    }
 }

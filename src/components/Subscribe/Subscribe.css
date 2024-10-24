@@ -19,49 +19,4 @@
     outline: none;
   }
   
-  .toUp{
-    background-color: #82ae46;
-
-    width: 60px;
-    height: 60px;
-    border-radius: 50%;
-    text-align: center;
-   
   
-  }
-  .toUp>i{
-    z-index: 3;
-  
-  }
-  
-  .toUp-icon{
-  
-    color: white;
-    border-radius: 50%;
-   position: absolute;
-  top:50%;
-  left: 35%; 
-   animation-name: toTop;
-    animation-duration: 1.5s;
-  animation-iteration-count: infinite;
-  }
-  
-  .toUp-icon>a{
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-  
-  
-  }
-  
-  @keyframes toTop{
-   from{
-    top:50%;
-    left: 35%;
-    opacity: 0;
-   }
-   to{
-    top:0%;
-     left: 35%;
-   }
-  }
