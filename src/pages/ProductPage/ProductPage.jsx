@@ -15,6 +15,8 @@ export default function ProductPage() {
   const { id } = useParams(); 
   const product = products.find((p) => p.id === parseInt(id));
 
+  const filteredProducts =products.filter(productData =>productData.category === product.category);
+
   const increment = () => {
     setCount((prevCount) => prevCount + 1)
   }
@@ -103,7 +105,7 @@ export default function ProductPage() {
             <div className=" grid sm:grid-cols-2  lg:grid-cols-3 xl:grid-cols-4 gap-4 mt-20">
 
                 {
-                  products.map(product =>(
+                  filteredProducts.map(product =>(
                      <Product key={product.id} product={product} />
                   ))
                 }

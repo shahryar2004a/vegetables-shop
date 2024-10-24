@@ -46,7 +46,9 @@ export default function NavBar() {
 
       
         <div className="text-3xl font-YekanHeavy cursor-pointer me-6 text-[#82ae46]">
+         <Link to='/'>
         زیست‌کالا
+         </Link>
         </div>
         <ul className="hidden md:flex space-x-10">
           <li><Link to="/" className="hover-menu me-10">خانه</Link></li>

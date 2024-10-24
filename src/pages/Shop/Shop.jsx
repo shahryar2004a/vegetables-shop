@@ -29,7 +29,7 @@ export default function Shop() {
       <NavBar/>
       <Header title="محصولات"/>
      
-   <div className="tabs flex justify-center space-x-4 my-20">
+   <div className="tabs p-10 grid grid-cols-1 md:flex md:justify-center space-x-4 my-20">
         {categories.map((category,index) => (
           <button
             key={index}

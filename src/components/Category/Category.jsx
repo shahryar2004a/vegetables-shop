@@ -20,7 +20,7 @@ export default function Category() {
       </div>
   </div>
   </div>
-  <div className="">
+       <div>
 
       <div className="vegetables">
         
@@ -32,7 +32,7 @@ export default function Category() {
       </div>
       </div>
   </div>
-  <div className="">
+  <div>
     <div className="category-item natural-juices ">
       <div className="category-item-text">
           <h2 className="font-YekanMedium "><a href="#">آبمیوه های طبیعی</a></h2>
