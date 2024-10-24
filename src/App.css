@@ -10,3 +10,46 @@ body {
     font-weight: 400;
     color: gray;
 }
+
+
+  
+  @keyframes bounceIn {
+    0% {
+      transform: translate(0px,100px);
+      opacity: 0;
+    }
+    20% {
+      transform: translate(0px,80px);
+      opacity: 0;
+  
+     
+    }
+    40% {
+      transform: translate(0px,60px);
+  
+      opacity: 0;
+     
+    }
+    40% {
+      transform: translate(0px,40px);
+      opacity: 0;
+  
+     
+    }
+    60% {
+      transform: translate(0px,20px);
+      opacity: 0;
+  
+     
+    } 
+    80% {
+      transform: translate(0px,10px);
+      opacity: 0;
+  
+     
+    }
+    100% {
+      transform: translate(0px,0px);
+      opacity: 1;
+    }
+  }

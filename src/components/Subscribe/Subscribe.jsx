@@ -14,19 +14,16 @@ export default function Subscribe() {
      
       
           <form dir="ltr" className='mt-10 mx-auto'>
-            <div  className="">
-              <div  className="w-[100%] sm:w-[400px]">
+              <div  className="flex ">
                 <input type="submit"  className="subscribe-btn font-YekanHeavy text-xl w-[30%]  p-3" id="basic-addon3" value="اشتراک"/>
                 <input dir="rtl" type="text"  className="subscribe-input font-YekanMedium w-[70%] p-3" id="basic-url"  placeholder="آدرس ایمیل خود را وارد کنید"/>
               </div>
-      
-            </div>
           </form>
         
      
     </div>
   </div>
-  <div  className="toUp"><a href="#" className="text-center">
+  <div  className="toUp"><a href="#nav" className="text-center">
     <div  className="toUp-icon">
          
           <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-chevron-up" viewBox="0 0 16 16">

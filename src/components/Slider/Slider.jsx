@@ -10,8 +10,9 @@ import 'swiper/react';
 import './Slider.css'
 export default function Slider() {
   return (
-    <div>
+    <>
   <Swiper
+    id='nav'
       spaceBetween={30}
       effect="fade" // افکت محو شدن برای تغییر خودکار
       fadeEffect={{ crossFade: true }} // محو شدن نرم
@@ -51,6 +52,6 @@ export default function Slider() {
         }
 
     </Swiper>
-    </div>
+    </>
   )
 }

@@ -9,6 +9,7 @@ import DaySell from '../../components/DaySell/DaySell'
 import CustomerSlider from '../../components/CustomerSlider/CustomerSlider'
 import Partner from '../../components/Partner/Partner'
 import Subscribe from '../../components/Subscribe/Subscribe'
+import Footer from '../../components/Footer/Footer'
 
 export default function Home() {
   return (
@@ -30,6 +31,10 @@ export default function Home() {
       <Partner/>
       </div>
       <Subscribe/>
+      <div className='container border-t-2 dark:border-gray-500'>
+      <Footer/>
+        
+      </div>
     </>
   )
 }
