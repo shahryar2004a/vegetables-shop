@@ -13,7 +13,7 @@ export default function ToUp() {
       };
   return (
     <>
-       <div onClick={scrollToTop}  className="toUp cursor-pointer absolute top-[-50px] left-[50%] lg:top-[-50px] lg:left-[50%]"><div  className="text-center">
+       <div onClick={scrollToTop}  className="toUp cursor-pointer absolute top-[-40px] left-[50%]"><div  className="text-center">
     <div  className="toUp-icon">
          
           <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" className="bi bi-chevron-up" viewBox="0 0 16 16">

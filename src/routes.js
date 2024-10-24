@@ -5,7 +5,7 @@ import Cart from "./pages/Cart/Cart"
 import Blogs from "./pages/Blogs/Blogs"
 import Blog from "./pages/Blog/Blog"
 import WishList from "./pages/WishList/WishList"
-import Product from "./pages/Product/Product"
+import ProductPage from "./pages/ProductPage/ProductPage"
 
 let routes=[
     {path:'/',element:<Home/>},
@@ -15,7 +15,7 @@ let routes=[
     {path:'/blogs',element:<Blogs/>},
     {path:'/blog',element:<Blog/>},
     {path:'/wishlist',element:<WishList/>},
-    {path:'/product',element:<Product/>},
+    {path:'/product/:id',element:<ProductPage/>},
 
 ]
 

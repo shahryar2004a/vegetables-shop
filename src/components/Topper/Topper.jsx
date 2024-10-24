@@ -6,7 +6,7 @@ import './Topper.css'
 export default function Topper() {
   return (
     <>
-      <div className='topper' style={{backgroundColor:'#82ae46'}}>
+      <div className='topper bg-[#82ae46] dark:bg-green-600'>
         <div className='md:flex justify-evenly items-center space-y-2 text-white text-sm p-2 font-YekanMedium'>
            <div className='flex items-center md:gap-2 '>
             <MdLocalPhone/>

@@ -2,22 +2,22 @@ import React from 'react'
 import { IoMenuOutline } from "react-icons/io5";
 import { FaHeart } from "react-icons/fa";
 import { FaCartArrowDown } from "react-icons/fa";
+import { Link } from 'react-router-dom';
 
 
 import './Product.css'
 export default function Product({product}) {
   return (
     <>
-        <div className=""> 
 
 <div className=" relative group bg-white product md:h-[300px] xl:h-[400px]">
          
   <div className="conainer-pic">
     <span className="product-off px-3">{product.off}%</span> 
-  <a href="#" className="">
+  <Link to={`/product/${product.id}`} className="">
     
  <img className="product-pic w-[70%] mx-auto md:w-full" src={product.img} alt=""/>
-  </a>
+  </Link>
 </div>
 
   <div className="product-detail xl:group-hover:hidden">
@@ -39,7 +39,6 @@ export default function Product({product}) {
 </div>
 </div>
 
-</div>
 </div>
     </>
   )

@@ -14,7 +14,7 @@ export default function Footer() {
   return (
     <>
     
-      <footer className="footer relative px-4 sm:px-0  py-20 mt-5">
+      <footer className="footer relative px-4 sm:px-0  py-20  border-t">
   <div className="container ">
     <div className="grid lg:grid-cols-3 gap-y-8 gap-x-3">
       <div className="">

@@ -4,16 +4,16 @@ import { FaQuoteLeft } from "react-icons/fa";
 import { Swiper, SwiperSlide } from "swiper/react";
 
 import "swiper/swiper-bundle.css"
-import SwiperCore, { Pagination } from "swiper";
+
 
 
 
 import './CustomerSlider.css'
 export default function CustomerSlider() {
-    const [currentPage, setCurrentPage] = useState(0); // برای پیگیری صفحه فعلی
+    const [currentPage, setCurrentPage] = useState(0); 
 
     const handleSlideChange = (swiper) => {
-      const newIndex = Math.floor(swiper.activeIndex / 3); // هر صفحه ۳ اسلاید دارد
+      const newIndex = Math.floor(swiper.activeIndex / 3); 
       setCurrentPage(newIndex);
     };
   return (
@@ -28,24 +28,23 @@ export default function CustomerSlider() {
             </div>
             <div className=" mx-auto my-10">
             <Swiper
-        spaceBetween={30}         // فاصله بین اسلایدها      // تعداد اسلایدهای قابل مشاهده در هر صفحه
-        onSlideChange={handleSlideChange} // برای پیگیری تغییرات صفحه
+        spaceBetween={30}         
+        onSlideChange={handleSlideChange} 
         breakpoints={{
-            // تنظیم تعداد اسلایدهای قابل مشاهده بر اساس اندازه صفحه
             640: {
-              slidesPerView: 1, // برای صفحه‌های کوچک (مثلاً موبایل)
+              slidesPerView: 1,
             },
             768: {
-              slidesPerView: 2, // برای تبلت‌ها
+              slidesPerView: 2,   
             },
             1024: {
-              slidesPerView: 3, // برای دسکتاپ
+              slidesPerView: 3, 
             },
             1280: {
-              slidesPerView: 3, // برای صفحه‌های بزرگ‌تر
+              slidesPerView: 3,
             },
             1536: {
-              slidesPerView: 3, // برای صفحه‌های خیلی بزرگ
+              slidesPerView: 3,
             },
           }}
       >
@@ -72,7 +71,7 @@ export default function CustomerSlider() {
         
         }
       </Swiper>
-      {/* دایره‌های کوچک برای نشان دادن صفحات */}
+
       <div className="flex justify-center mt-4">
         <div className="flex space-x-2">
           {Array.from({ length: 2 }, (_, index) => (
