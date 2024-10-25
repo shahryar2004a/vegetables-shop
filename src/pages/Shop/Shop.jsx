@@ -1,11 +1,11 @@
 import React,{useState} from 'react'
 import { products } from '../../data'
-import Product from '../../components/Products/Product/Product';
 import Topper from '../../components/Topper/Topper';
 import NavBar from '../../components/NavBar/NavBar';
 import Header from '../../components/Header/Header';
 import Footer from '../../components/Footer/Footer';
 import Subscribe from '../../components/Subscribe/Subscribe';
+import ProductList from '../../components/Products/ProductList';
 
 export default function Shop() {
 
@@ -44,14 +44,8 @@ export default function Shop() {
         ))}
       </div>
 
-     
-      <div className="container grid sm:grid-cols-2  lg:grid-cols-3 xl:grid-cols-4 gap-4 my-20">
-        {selectedProducts.map((product) => (
-        
-            <Product key={product.id} product={product}/>
-         
-        ))}
-      </div>
+         <ProductList products={selectedProducts}/>
+   
       <div className="pagination flex justify-center gap-x-4 mb-20">
         {Array.from({ length: totalPages }, (_, index) => (
           <button

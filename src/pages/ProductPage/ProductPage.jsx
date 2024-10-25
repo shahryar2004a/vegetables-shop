@@ -5,10 +5,11 @@ import Header from '../../components/Header/Header'
 import Footer from '../../components/Footer/Footer'
 import { IoIosStarOutline } from "react-icons/io";
 import { products } from '../../data'
-import Product from '../../components/Products/Product/Product'
+import ProductList from '../../components/Products/ProductList'
 import { useParams } from 'react-router-dom';
 
 import './ProductPage.css'
+import HeaderSection from '../../components/HeaderSection/HeaderSection'
 export default function ProductPage() {
 
 
@@ -56,7 +57,7 @@ export default function ProductPage() {
             <a href="pics/product-1.jpg" className="image-popup"><img src={product.img} className="img-fluid" alt="Colorlib Template"/></a>
         </div>
         <div className=" flex flex-col gap-y-4 mt-5">
-         <h1 className=' font-YekanHeavy text-4xl text-black dark:text-white'>{product.title}</h1>
+         <h1 className=' font-YekanHeavy text-4xl text-black dark:text-white'>{product.name}</h1>
          <div className="rating flex ">
             <p className="text-left  flex items-center text-[#82ae46]">
                 <a href="#" className="me-3">5.0</a>
@@ -105,23 +106,12 @@ export default function ProductPage() {
     </div>
 
 </section>
-      <section className='customer-section mt-[100px] mb-[100px]'>
+      <section className='mt-[100px] mb-[100px]'>
         <div className='container'>
-        <div className="row customer-title text-center">
-            <span className="subheading font-YekanMedium mt-4 mb-4">محصولات</span>
-                <h2 className="font-YekanHeavy text-5xl mt-3 dark:text-white">محصولات مشابه</h2>
-                <p className="mt-4 font-YekanMedium text-xl dark:text-white">سلامتی خود را تضمین کنید</p>
-            
-            </div>
-             
-            <div className=" grid sm:grid-cols-2  lg:grid-cols-3 xl:grid-cols-4 gap-4 mt-20">
-
-                {
-                  filteredProducts.map(product =>(
-                     <Product key={product.id} product={product} />
-                  ))
-                }
-              </div>
+                 
+                  <HeaderSection topHeading='محصولات' heading='محصولات مشابه' subHeading='سلامتی خود را تضمین کنید'/>
+                  <ProductList products={filteredProducts} />
+         
 
 
 

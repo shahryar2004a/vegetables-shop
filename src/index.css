@@ -30,13 +30,8 @@
 }
 
 @layer components{
-    .green{
-        color: #82ae46;
-      }
-}
 
-@layer utilities{
-    .hover-menu{
+      .hover-menu{
         @apply hover:text-gray-900 dark:hover:text-gray-400 transition-all ease-in-out
     }
     .mobile-menu-item{
@@ -54,4 +49,13 @@
     .form-btn{
         @apply border-2 border-[#82ae46] bg-[#82ae46] text-white w-52 rounded-xl hover:bg-transparent hover:text-[#82ae46] transition-all cursor-pointer p-2 font-YekanMedium
     }
+    .partner-img{
+        @apply w-[70%] h-[70%] md:w-[80%] md:h-[80%] lg:w-[90%] lg:h-[90%] xl:w-[100%] xl:h-[100%]  mx-auto px-5
+    }
+}
+
+@layer utilities{
+    .green{
+        color: #82ae46;
+      }
 }

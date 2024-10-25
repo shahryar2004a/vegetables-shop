@@ -13,8 +13,8 @@ export default function Product({product}) {
 
 <div className=" relative group bg-white product w-[70%] sm:w-full md:h-[300px] xl:h-[400px] mx-auto">
          
-  <div className="conainer-pic">
-    <span className="product-off px-3">{product.off}%</span> 
+  <div className="container-pic">
+    <span className={`product-off px-3 ${product.off ? '':'hidden'}`}>{product.off}%</span> 
   <Link to={`/product/${product.id}`} className="">
     
  <img className="product-pic w-[70%] mx-auto md:w-full" src={product.img} alt=""/>

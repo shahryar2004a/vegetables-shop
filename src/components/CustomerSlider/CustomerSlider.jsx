@@ -20,12 +20,6 @@ export default function CustomerSlider() {
     <>
        <section className='customer-section mt-[100px] mb-[100px]'>
         <div className='container'>
-        <div className="row customer-title text-center">
-            <span className="subheading font-YekanMedium mt-4 mb-4">تجربه خرید</span>
-                <h2 className="font-YekanHeavy text-5xl mt-3 dark:text-white">رضایت مشتری</h2>
-                <p className="mt-4 font-YekanMedium text-xl dark:text-white">تجربه خرید خود را با دیگران در میان بگذارید</p>
-            
-            </div>
             <div className=" mx-auto my-10">
             <Swiper
         spaceBetween={30}         

@@ -46,9 +46,8 @@ export default function ContactUs() {
 </div>
 
 <div className="grid xl:grid-cols-2 gap-y-4 gap-x-8 input-section">
-<iframe className='border-0 w-[100%] h-full' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3239.7218988893883!2d51.41704487525174!3d35.70846062847858!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f8e016feb28b3bd%3A0x26075e3f5ace4c14!2sTehran%20Province%2C%20Tehran%2C%20District%206%2C%20Iranshahr%20St%2C%20Iran!5e0!3m2!1sen!2sus!4v1729772404995!5m2!1sen!2sus"
-   allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
-    <div className="">
+<iframe className='border-0 w-[100%] h-full' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3239.7218988893883!2d51.41704487525174!3d35.70846062847858!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f8e016feb28b3bd%3A0x26075e3f5ace4c14!2sTehran%20Province%2C%20Tehran%2C%20District%206%2C%20Iranshahr%20St%2C%20Iran!5e0!3m2!1sen!2sus!4v1729772404995!5m2!1sen!2sus" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+    <div>
         <form action="#" className="bg-white dark:bg-zinc-500 rounded-lg p-5 flex flex-col gap-y-4">
           
               <input className='form-input' type="text"  placeholder="نام"/>

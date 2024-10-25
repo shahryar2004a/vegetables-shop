@@ -93,11 +93,11 @@ export default function NavBar() {
           isOpen ? 'max-h-96' : 'max-h-0'
         }`}>
         <ul className="flex flex-col  space-y-2 p-4 ps-10">
-          <li><a href="/" className="mobile-menu-item ">خانه</a></li>
-          <li><a href="/shop" className="mobile-menu-item ">خرید</a></li>
-          <li><a href="/cart" className="mobile-menu-item ">سبد خرید</a></li>
-          <li><a href="/aboutUs" className="mobile-menu-item ">درباره ما</a></li>
-          <li><a href="/contactUs" className="mobile-menu-item">تماس با ما</a></li>
+          <li><Link to="/" className="mobile-menu-item ">خانه</Link></li>
+          <li><Link to="/shop" className="mobile-menu-item ">خرید</Link></li>
+          <li><Link to="/cart" className="mobile-menu-item ">سبد خرید</Link></li>
+          <li><Link to="/aboutUs" className="mobile-menu-item ">درباره ما</Link></li>
+          <li><Link to="/contactUs" className="mobile-menu-item">تماس با ما</Link></li>
           <li className="mobile-menu-item"><Link to="/cart" className="flex items-center">[0]<IoMdCart/></Link></li>
           <li><DarkModeSwitch className='text-slate-400 size-[34px] ms-2 ' checked={darkSide} onChange={toggleDarkMode}/></li>
 

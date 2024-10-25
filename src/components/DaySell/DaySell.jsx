@@ -1,5 +1,6 @@
-import React,{useState,useEffect} from 'react'
+import React from 'react'
 import useCountdown from '../Hook/useCountdown'
+import { Link } from 'react-router-dom';
 
 
 import './DaySell.css'
@@ -18,7 +19,7 @@ export default function DaySell() {
                 <span className="subheading green font-YekanMedium">بهترین قیمت</span>
                 <h1 className="mb-4 mt-4 font-YekanHeavy text-4xl text-black">فروش روز</h1>
                 <p className='font-YekanMedium text-xl'>سبد ارگانیک مخصوص شما</p>
-                <h3><a href="#">اسفناج</a></h3>
+                <h3><Link to='/shop'>اسفناج</Link></h3>
                 <span className="price text-gray font-YekanMedium text-xl"> 10 هزار تومان <a href="#" className="green">هم اکنون 5 هزارتومان</a></span>
                 <div id="timer" className="flex mt-5 text-3xl md:text-5xl green gap-x-3 md:gap-x-7 ">
                     <div className="time" id="days">{days}<span className='time-text'>روز</span></div>
