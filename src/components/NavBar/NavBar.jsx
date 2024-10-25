@@ -58,12 +58,6 @@ export default function NavBar() {
             <li>
                 <Link to="/shop" className="block px-4 py-2 hover-menu ">خرید</Link>
               </li>
-              <li>
-                <Link to="/wishlist" className="block px-4 py-2 hover-menu ">محصولات مورد علاقه</Link>
-              </li>
-              <li>
-                <Link to="#" className="block px-4 py-2 hover-menu">اشتراک</Link>
-                </li>
                 <li>
                 <Link to="/cart" className="block px-4 py-2 hover-menu">سبد خرید</Link>
               </li>
