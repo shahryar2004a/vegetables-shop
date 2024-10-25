@@ -1,5 +1,5 @@
 import React from 'react'
-import ToUp from '../ToUp/ToUp'
+
 
 import './Subscribe.css'
 export default function Subscribe() {

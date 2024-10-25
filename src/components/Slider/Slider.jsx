@@ -13,23 +13,21 @@ export default function Slider() {
     <>
   <Swiper
       spaceBetween={30}
-      effect="fade" // افکت محو شدن برای تغییر خودکار
-      fadeEffect={{ crossFade: true }} // محو شدن نرم
+      effect="fade" //      
+      fadeEffect={{ crossFade: true }}    
       centeredSlides={true}
        scrollbar={{ draggable: true }}
       autoplay={{
-        delay: 4000, // تغییر خودکار هر 5 ثانیه
-        disableOnInteraction: false, // غیرفعال نشدن Autoplay هنگام تعامل کاربر
+        delay: 4000,      
+        disableOnInteraction: false, 
       }}
       loop={true}
-      modules={[Autoplay, EffectFade, Pagination, Navigation]} // ماژول‌های مورد نیاز
+      modules={[Autoplay, EffectFade, Pagination, Navigation]}   
       className="mySwiper h-[89vh]"
       onSlideChangeTransitionStart={() => {
-        // فعال کردن انیمیشن محو شدن فقط در تغییر خودکار
         document.querySelector('.swiper-wrapper').style.transition = 'opacity 0.5s ease';
       }}
       onTouchStart={() => {
-        // غیرفعال کردن محو شدن هنگام کشیدن توسط کاربر
         document.querySelector('.swiper-wrapper').style.transition = 'none';
       }}
     >
