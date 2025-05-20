@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState } from "react";
 
 const useLocalStorage = (key, initialValue) => {
   const [storedValue, setStoredValue] = useState(() => {
@@ -13,7 +13,8 @@ const useLocalStorage = (key, initialValue) => {
 
   const setValue = (value) => {
     try {
-      const valueToStore = value instanceof Function ? value(storedValue) : value;
+      const valueToStore =
+        value instanceof Function ? value(storedValue) : value;
       setStoredValue(valueToStore);
       window.localStorage.setItem(key, JSON.stringify(valueToStore));
     } catch (error) {
@@ -22,7 +23,7 @@ const useLocalStorage = (key, initialValue) => {
   };
 
   const removeValue = (id) => {
-    const updatedValue = storedValue.filter(item => item.id !== id);
+    const updatedValue = storedValue.filter((item) => item.id !== id);
     setStoredValue(updatedValue);
     window.localStorage.setItem(key, JSON.stringify(updatedValue));
   };
